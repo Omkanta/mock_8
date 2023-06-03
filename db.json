@@ -1,16 +1,27 @@
 {
-  "posts":[
+  "users": [
     {
-      "id" : 0,
-      "title": "First post!",
-      "content" : "My first content!"
+      "username": "om",
+      "avatar": "https://st.depositphotos.com/2218212/2938/i/600/depositphotos_29387653-stock-photo-facebook-profile.jpg",
+      "email": "om@gmail.com",
+      "password": "12345",
+      "id": 1
     }
   ],
-  "comments" : [
+  "forum": [
     {
-      "id": 0,
-      "content": "Wow such content!",
-      "username": "zero_cool"
+      "question": {
+        "userAvatar": "https://st.depositphotos.com/2218212/2938/i/600/depositphotos_29387653-stock-photo-facebook-profile.jpg",
+        "username": "om",
+        "questionTitle": "map & forEach",
+        "questionDescription": "Differnce between map and forEach",
+        "language": "JavaScript",
+        "upvotes": 0,
+        "answers": 0,
+        "postedDate": "2023-5-3"
+      },
+      "answers": [],
+      "id": 1
     }
   ]
 }
